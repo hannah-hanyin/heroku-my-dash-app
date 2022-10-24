@@ -1,7 +1,8 @@
 import dash
 # from dash import dash_core_components as dcc
 from dash import dcc
-from dash import dash_html_components as html
+# from dash import dash_html_components as html
+from dash import html
 import plotly.graph_objs as go
 import pandas as pd
 from dash import dash_bootstrap_components as dbc
