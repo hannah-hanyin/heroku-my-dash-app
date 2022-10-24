@@ -4,4 +4,3 @@ dash_bootstrap_components
 dash_html_components
 pandas
 Plotly
-pygame
