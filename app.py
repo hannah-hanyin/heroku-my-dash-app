@@ -85,7 +85,10 @@ external_stylesheets = ["https://codepen.io/chriddyp/pen/bWLwgP.css",
 
 external_scripts = ["assets/jquery-3.5.1.min.js", 'assets/custom-script.js']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets, external_scripts=external_scripts)
+
+# Declare server for Heroku deployment. Needed for Procfile.
 server = app.server
+
 # Title and icon
 app.title = "My NSW Business Map"
 # Layout
